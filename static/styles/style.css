@@ -1,0 +1,89 @@
+*{
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+  }
+  html{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    background-color: rgb(84, 19, 145);
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .header{
+    background-color: rgb(53, 11, 93);
+    margin: 0px;
+  }
+  h1{
+    text-decoration: dashed;
+    font-size: 2px;
+    font-style: oblique;
+  }
+  form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  select{
+    width: 370px;
+  }
+  #daysPerWeek{
+    width:357.778px
+  }
+  .submit{
+    width: 370px;
+  }
+  
+  /*Exercise dropdown button*/
+  .dropdown {
+      display: inline-block;
+      position: relative;
+      width:370px;
+    }
+    
+    button{
+      border:none;
+      border-radius:5px;
+  
+      pointer-events: none;
+      font-size:18px;
+      width: 370px;
+      cursor:pointer;
+    }
+    
+    button:hover{
+      background-color:#ddd;
+    }
+    
+    .dropdown-options {
+      display: none;
+      position: absolute;
+      overflow: auto;
+      background-color:#fff;
+      border-radius:5px;
+      width: 360px;
+      box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    }
+    
+    .dropdown:hover .dropdown-options {
+      display: block;
+    }
+    
+    .dropdown-options checkbox {
+      display: block;
+      color: #000000;
+      padding: 5px;
+      text-decoration: none;
+      padding:20px 40px;
+    }
+    
+    .dropdown-options checkbox:hover {
+      color: #0a0a23;
+      background-color: #ddd;
+      border-radius:5px;
+    }
