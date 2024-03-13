@@ -1,0 +1,29 @@
+== Data
+Database:
+Columns representing: ex name, muscle group, compound movement, difficulty (beginner, intermediate, advanced), gender(woman, male, none), 
+favourite(0 or 1 based on favourite users exercises), overall rating(0-100)(determines which excercises are better than another)
+
+== UX, UI:
+Smooth Onboarding:
+A simple questionnaire gathering essential details: Experience level, workout frequency goals, gender, age (to adjust intensity), goal(hipertrophy/ strength).
+Optional: Allow users to "favorite" exercises or target specific muscle groups or excercise which user don't wants to do.
+Intuitive Interface:
+Clean, distraction-free design focusing on core functions.
+Clear visual hierarchy for plan display and exercise information.
+Workout Plan Display:
+Each workout presented in an easily digestible format with:
+Exercise name, sets, reps, and recommended rest times.
+
+== AI-Driven Plan Generation:
+Algorithm Logic:
+Leverages collected user data (experience, gender, etc.) to adjust workout complexity.
+The AI algorithm determines the ideal split routine (e.g. full-body, upper/lower, push/pull) based on the user's chosen training days and experience level
+Incorporates a weighting system based on exercise importance, favorites and muscle group priorities.
+Balances exercises to ensure full-body development and prevent overtraining.
+
+== Run tests.
+
+== Release app so people can use it.
+
+== Possibly update app 
+Add more functions (workout and weight tracking, nutrition, users opinions on exercises, challanges, users ratings).
