@@ -43,7 +43,7 @@ def generate_plan():
     data[0].append(workout_days)    
     data[0].append(experience)    
 
-    #Use ai model to get split that satisfies requirements 
+    #Use ai model to get split that satisfies requirements
     train_result = train_split.predict(data)
     splits = []
     if train_result == 0:
